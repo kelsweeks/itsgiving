@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css"/>
     <title>My Personal Website</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    <img src="images/KW.png" alt="KW Logo">
+                </a>
+                <a class="navbar-burger" role="button" aria-label="menu" aria-explanded="false" data-target="#navMenu">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-start"></div>
+                <div class="navbar-end">
+                  <a class="navbar-item">Projects</a>
+                  <div class="navbar-item">
+                    <a class="button is-primary is-outlined is-rounded">Say Hi</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-white has-text-centered">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column">
+              <img src="images/KWportraitdec 21-15.JPG" alt="KW Portrait">
+              <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Hi, I'm Kelsey. I'm a Full-Stack Developer.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <h3>Hi, I'm Kelsey.</h3>
+    <h4>Full Stack Developer</h4>
+    <p>"Copy here with short bio"</p>
   </body>
 </html>
 
