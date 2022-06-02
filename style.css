@@ -1,0 +1,161 @@
+body {
+    background: #FFB625;
+  }
+
+.navbar {
+    background-color: #FFB625;
+    min-height: 3.25rem;
+    position: relative;
+    padding: 1.2rem 0;
+        padding-top: 1.2rem;
+        padding-right: 0px;
+        padding-bottom: 1.2rem;
+        padding-left: 0px;
+    box-shadow: none;
+    z-index: auto;
+}
+
+.navbar > .container {
+    display:block;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: flex;
+    min-height: 3.25rem;
+    width: 100%;
+}
+.container {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.navbar-brand {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 0;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    border: 0px;
+        border-top-color: initial;
+        border-top-style: initial;
+        border-top-width: 0px;
+        border-right-color: initial;
+        border-right-style: initial;
+        border-right-width: 0px;
+        border-bottom-color: initial;
+        border-bottom-style: initial;
+        border-bottom-width: 0px;
+        border-left-color: initial;
+        border-left-style: initial;
+        border-left-width: 0px;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    vertical-align: baseline;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+    box-sizing: inherit;
+}
+
+.navbar .navbar-brand a.navbar-item {
+    background-color: transparent;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    max-height: 3rem;
+}
+
+.navbar .navbar-brand a.navbar-item img {
+    max-height: 6rem;
+}
+.navbar-item {
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.navbar-item img {
+    max-height: 1.75rem;
+    height: auto;
+    max-width: 100%;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+.navbar .navbar-brand .navbar-burger {
+    height: inherit;
+}
+.navbar-burger span {
+    background-color: currentColor;
+    display: block;
+    height: 1px;
+    left: calc(50% - 8px);
+    position: absolute;
+    transform-origin: center;
+    transition-duration: 86ms;
+    transition-property: background-color, opacity, transform, -webkit-transform;
+    transition-timing-function: ease-out;
+    width: 16px;
+}
+.navbar-burger span :nth-child(1) {
+    top: calc(50% - 6px);
+}
+.navbar-burger span :nth-child(2) {
+    top: calc(50% - 1px);
+}
+.navbar-burger span :nth-child(3) {
+    top: calc(50% + 4px);
+}
+.navbar-burger {
+    color: #FFE0C7;
+    cursor: pointer;
+    display: block;
+    height: 3.25rem;
+    position: relative;
+    width: 3.25rem;
+    margin-left: auto;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    border-left: 1px solid #E6ECF8;
+}
+
+h1 {
+    color: #FF5900;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+h2 { 
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+} 
+p { 
+    color:#FF5900;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+} 
